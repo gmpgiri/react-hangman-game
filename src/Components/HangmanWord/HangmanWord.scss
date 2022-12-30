@@ -1,0 +1,16 @@
+.hangmanWordContainer {
+    display: flex;
+    gap: .25em;
+    flex-wrap: wrap;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+.hangmanWord {
+    border-bottom: .1em solid black;
+    // height: 20px;
+}
+.wordVisibility {
+    visibility: hidden;
+}

@@ -1,0 +1,86 @@
+.hangmanDrawingContainer {
+	position: relative;
+	margin-right: 60px;
+}
+.topBar {
+	height: 10px;
+	width: 180px;
+	background-color: black;
+	margin-left: 85px;
+}
+.dropBar {
+	height: 50px;
+	width: 10px;
+	background-color: black;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.pole {
+	height: 400px;
+	width: 10px;
+	background-color: black;
+	margin-left: 85px;
+}
+.bottomBar {
+	height: 10px;
+	width: 180px;
+	background-color: black;
+}
+.hangmanHead {
+	width: 50px;
+	height: 50px;
+	border: 10px solid black;
+	border-radius: 50%;
+	position: absolute;
+	top: 50px;
+	right: -30px;
+}
+.hangmanBody {
+	width: 10px;
+	height: 100px;
+	background-color: black;
+	position: absolute;
+	top: 120px;
+	right: 0px;
+}
+.rightArm {
+	width: 100px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+	top: 150px;
+	right: -100px;
+	rotate: -30deg;
+	transform-origin: left bottom;
+}
+.leftArm {
+	width: 100px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+	top: 150px;
+	right: 10px;
+	rotate: 30deg;
+	transform-origin: right bottom;
+}
+.rightLeg {
+	width: 100px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+	top: 210px;
+	right: -90px;
+	rotate: 60deg;
+	transform-origin: left bottom;
+}
+.leftLeg {
+	width: 100px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+	top: 210px;
+	right: 0px;
+	rotate: -60deg;
+	transform-origin: right bottom;
+}
